@@ -1,0 +1,22 @@
+.brand-section {
+
+    .container-fluid {
+        padding:  0 170px;
+
+        @include breakpoint (max-xl4) {
+            padding:  0 70px;
+        }
+
+         @include breakpoint (max-xxxl) {
+            padding:  0 50px;
+        }
+
+         @include breakpoint (max-xxl) {
+            padding:  0 30px;
+        }
+
+        @include breakpoint (max-sm) {
+            padding:  0 15px;
+        }
+    }
+}
